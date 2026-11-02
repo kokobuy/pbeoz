@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#f5f4ef">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="googlebot" content="index,follow">
+<meta name="bingbot" content="index,follow">
+<meta name="author" content="Independent Spreadsheet Editorial">
+<meta name="description" content="Kakobuy Spreadsheet 2026: Entdecke Kategorien, prüfe QC-Fotos, vergleiche Versandkosten und finde hilfreiche Kakobuy Links. Unabhängiger deutscher Guide.">
+<title>Kakobuy Spreadsheet 2026 – Links, QC & Versand Guide</title>
+<style>
+:root{--bg:#f5f4ef;--ink:#14271f;--green:#195e43;--lime:#d8ff79;--muted:#657269;--line:#d8ded5;--white:#fff;--orange:#f5a66a}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+a{color:inherit}
+button,select{font:inherit}
+button,a,select{-webkit-tap-highlight-color:transparent}
+a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #ef9944;outline-offset:4px}
+.container{width:min(1240px,90%);margin:auto}
+.skip{position:absolute;top:-100px;left:10px;background:white;padding:12px;z-index:100}
+.skip:focus{top:10px}
+header{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);position:relative;z-index:5}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:900;letter-spacing:-1px;font-size:21px}
+.logo-mark{background:var(--green);color:var(--lime);width:36px;height:36px;display:grid;place-items:center;border-radius:10px}
+nav{display:flex;align-items:center;gap:25px}
+nav a{text-decoration:none;font-size:13px;font-weight:700}
+nav a:hover{color:var(--green)}
+.nav-cta{background:var(--ink);color:white;padding:10px 18px;border-radius:30px}
+.hero{min-height:calc(100svh - 76px);position:relative;overflow:hidden;display:flex;align-items:center;background:#e9efe5;isolation:isolate}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 78% 45%,#b4e8ab 0,transparent 35%),radial-gradient(circle at 10% 90%,#e0efbe,transparent 45%);z-index:-2}
+.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:5%;align-items:center;padding:70px 0}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+.dot{height:8px;width:8px;border-radius:50%;background:#52a86b}
+h1{font-size:clamp(58px,8.2vw,126px);line-height:.94;letter-spacing:-.085em;margin:25px 0 28px;font-weight:900}
+h1 em{display:block;color:var(--green);font-style:normal}
+h1 small{display:block;font-size:.42em;letter-spacing:-.055em;margin-top:16px}
+.lead{max-width:540px;font-size:17px;color:#4b6154}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:15px 23px;border-radius:7px;text-decoration:none;font-weight:800;font-size:13px;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-3px)}
+.btn-primary{background:var(--green);color:white}
+.btn-dark{background:var(--ink);color:white}
+.btn-outline{border:1px solid #779384;color:var(--ink)}
+.hero-note{font-size:12px;color:#5e7565;margin-top:23px}
+.visual{height:540px;position:relative;display:grid;place-items:center}
+.orbit{position:absolute;width:90%;aspect-ratio:1;border:1px solid #8eb59c;border-radius:50%;animation:spin 38s linear infinite}
+.orbit:after{content:"✦";position:absolute;top:10%;left:12%;font-size:35px;color:var(--green)}
+.orbit.two{width:65%;animation-direction:reverse}
+.sheet{width:76%;max-width:410px;background:#fff;border:1px solid #d9e1d6;box-shadow:25px 35px 0 #195e4320;transform:rotate(-7deg);border-radius:12px;overflow:hidden;animation:float 7s ease-in-out infinite}
+.sheet-top{background:#163e2d;color:white;padding:18px;display:flex;justify-content:space-between;font-size:12px;font-weight:800}
+.sheet-row{display:grid;grid-template-columns:1.3fr .8fr .6fr;gap:8px;padding:15px;border-bottom:1px solid #e6ebe5;font-size:12px}
+.sheet-row:nth-child(even){background:#f1f7ef}
+.sheet-row b{color:#1b694a}
+.status{background:#dcf7ce;border-radius:20px;padding:3px 8px;font-size:10px}
+.floating{position:absolute;background:var(--lime);border:1px solid #a6c96a;border-radius:8px;padding:13px 18px;font-size:12px;font-weight:900;box-shadow:0 12px 25px #1b492017}
+.f1{top:12%;right:0;transform:rotate(7deg)}
+.f2{bottom:12%;left:0;transform:rotate(-8deg)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes float{50%{transform:translateY(-14px) rotate(-5deg)}}
+.ticker{background:var(--ink);color:var(--lime);overflow:hidden;padding:13px 0;font-size:12px;letter-spacing:2px;font-weight:800;text-align:center}
+section{padding:95px 0}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:40px}
+.kicker{font-size:11px;font-weight:900;color:var(--green);letter-spacing:2px;text-transform:uppercase}
+h2{font-size:clamp(35px,5vw,65px);line-height:1.08;letter-spacing:-.06em;margin:12px 0}
+.section-head p{max-width:360px;color:var(--muted);font-size:14px}
+.category-area{background:#fff}
+.category-tools{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+select{padding:16px;border:1px solid var(--line);background:#f7f9f5;border-radius:7px;min-width:270px;max-width:100%;color:var(--ink)}
+.category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.cat{border:1px solid var(--line);padding:24px 18px;min-height:140px;text-decoration:none;display:flex;flex-direction:column;justify-content:space-between;transition:.2s;background:#fbfcf9}
+.cat:hover{background:var(--lime);border-color:var(--green);transform:translateY(-3px)}
+.cat-icon{font-size:27px}
+.cat strong{font-size:14px}
+.cat span:last-child{align-self:end;color:var(--green)}
+.info-strip{margin-top:24px;background:#e9f3e4;padding:22px;border-left:4px solid var(--green);font-size:13px}
+.dark-section{background:var(--ink);color:#fff}
+.dark-section .kicker{color:var(--lime)}
+.dark-section h2{color:#fff}
+.dark-section p{color:#c0d1c4}
+.workflow{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#486251;border:1px solid #486251;margin-top:40px}
+.step{background:var(--ink);padding:30px}
+.step .number{color:var(--lime);font-size:12px}
+.step h3{font-size:21px;margin:35px 0 12px}
+.step p{font-size:13px}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:9px}
+table{border-collapse:collapse;width:100%;min-width:650px;font-size:13px;background:white}
+th,td{text-align:left;padding:18px;border-bottom:1px solid var(--line)}
+th{background:#e5f0df;font-size:12px}
+tr:last-child td{border-bottom:0}
+.editorial{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.editorial-art{min-height:410px;background:var(--lime);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.editorial-art:before{content:"";width:240px;height:240px;border:45px solid var(--green);border-radius:50%;position:absolute;transform:rotate(35deg) scaleX(1.4)}
+.editorial-art span{position:relative;background:var(--ink);color:var(--lime);padding:15px 25px;font-size:25px;font-weight:900;transform:rotate(-10deg)}
+.checklist{padding-left:20px}
+.checklist li{margin:13px 0;color:var(--muted)}
+.articles{background:#edf1e9}
+.article-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+article{background:white;border:1px solid #dce5d8;padding:26px;scroll-margin-top:20px}
+article .tag{color:var(--green);font-size:10px;letter-spacing:1.5px;font-weight:900;text-transform:uppercase}
+article h3{font-size:21px;line-height:1.25;letter-spacing:-.035em;margin:12px 0}
+article p{font-size:13px;color:#53665b}
+article ul{font-size:12px;color:#53665b;padding-left:19px}
+article li{margin-bottom:6px}
+.article-links{display:flex;gap:15px;flex-wrap:wrap;margin-top:18px;font-size:12px;font-weight:800;color:var(--green)}
+.article-links a:hover{text-decoration:none}
+.index-links{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:25px}
+.index-links a{font-size:11px;text-decoration:none;background:white;border:1px solid var(--line);padding:8px 12px;border-radius:4px}
+.index-links a:hover{background:var(--lime)}
+.faq-list{max-width:850px;margin:auto}
+details{border-bottom:1px solid var(--line);padding:20px 0}
+summary{font-weight:800;cursor:pointer;list-style-position:outside}
+details p{font-size:14px;color:var(--muted)}
+.cta-panel{background:var(--lime);padding:65px;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}
+.cta-panel h2{margin:0}
+footer{background:#10241a;color:#d0dfd1;padding:65px 0 25px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:45px}
+footer h3{color:white}
+footer a{color:#d0dfd1}
+footer p,footer a{font-size:12px}
+footer ul{padding:0;list-style:none}
+footer li{margin:12px 0}
+.bottom{border-top:1px solid #345143;margin-top:45px;padding-top:20px;font-size:11px;color:#a7bdad}
+@media(max-width:950px){
+nav a:not(.nav-cta){display:none}
+.hero-grid{grid-template-columns:1fr}
+.hero{min-height:auto}
+.hero-grid{padding:70px 0}
+.visual{height:410px}
+.category-grid,.workflow{grid-template-columns:repeat(2,1fr)}
+.editorial{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+header{height:65px}
+.logo{font-size:17px}
+.nav-cta{font-size:11px;padding:9px 12px}
+.hero-grid{padding:60px 0 30px}
+h1{font-size:clamp(55px,14vw,80px)}
+.lead{font-size:15px}
+.visual{height:340px}
+.sheet{width:77%}
+.sheet-row{padding:10px;font-size:10px}
+.floating{font-size:10px;padding:8px}
+section{padding:65px 0}
+.section-head{display:block}
+.category-grid{grid-template-columns:repeat(2,1fr)}
+.cat{min-height:125px;padding:16px}
+.cat strong{font-size:12px}
+.workflow,.article-grid{grid-template-columns:1fr}
+.step h3{margin-top:15px}
+.editorial-art{min-height:260px}
+.cta-panel{grid-template-columns:1fr;padding:32px}
+.footer-grid{grid-template-columns:1fr}
+.actions .btn{flex:1}
+}
+@media(prefers-reduced-motion:reduce){
+*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@graph":[
+  {
+   "@type":"WebSite",
+   "@id":"#website",
+   "name":"Kakobuy Spreadsheet Guide 2026",
+   "inLanguage":"de-DE",
+   "description":"Unabhängiger Guide für Kakobuy Spreadsheet, Links, QC und Versand."
+  },
+  {
+   "@type":"WebPage",
+   "@id":"#webpage",
+   "name":"Kakobuy Spreadsheet 2026 – Links, QC & Versand Guide",
+   "inLanguage":"de-DE",
+   "isPartOf":{"@id":"#website"},
+   "about":[
+    {"@type":"Thing","name":"Kakobuy Spreadsheet"},
+    {"@type":"Thing","name":"Qualitätskontrolle beim Online-Einkauf"},
+    {"@type":"Thing","name":"Internationale Versandkosten"}
+   ]
+  },
+  {
+   "@type":"ItemList",
+   "name":"Kakobuy Spreadsheet 2026 Themen",
+   "numberOfItems":20,
+   "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Kakobuy Spreadsheet 2026"},
+    {"@type":"ListItem","position":2,"name":"Kakobuy Links"},
+    {"@type":"ListItem","position":3,"name":"Kakobuy QC"},
+    {"@type":"ListItem","position":4,"name":"Kakobuy Versand"},
+    {"@type":"ListItem","position":5,"name":"Kakobuy Schuhe"},
+    {"@type":"ListItem","position":6,"name":"Kakobuy Hoodies"},
+    {"@type":"ListItem","position":7,"name":"Kakobuy T-Shirts"},
+    {"@type":"ListItem","position":8,"name":"Kakobuy Jacken"},
+    {"@type":"ListItem","position":9,"name":"Kakobuy Hosen"},
+    {"@type":"ListItem","position":10,"name":"Kakobuy Taschen"},
+    {"@type":"ListItem","position":11,"name":"Kakobuy Accessoires"},
+    {"@type":"ListItem","position":12,"name":"Kakobuy Größen"},
+    {"@type":"ListItem","position":13,"name":"Kakobuy Haul"},
+    {"@type":"ListItem","position":14,"name":"Kakobuy Legit"},
+    {"@type":"ListItem","position":15,"name":"Kakobuy Deutschland"},
+    {"@type":"ListItem","position":16,"name":"Kakobuy Kosten"},
+    {"@type":"ListItem","position":17,"name":"Kakobuy Zoll"},
+    {"@type":"ListItem","position":18,"name":"Kakobuy Fehler"},
+    {"@type":"ListItem","position":19,"name":"Kakobuy Vergleich"},
+    {"@type":"ListItem","position":20,"name":"Kakobuy Checkliste"}
+   ]
+  },
+  {
+   "@type":"FAQPage",
+   "mainEntity":[
+    {
+     "@type":"Question",
+     "name":"Was ist ein Kakobuy Spreadsheet?",
+     "acceptedAnswer":{"@type":"Answer","text":"Ein Kakobuy Spreadsheet ist eine strukturierte Sammlung von Produktlinks und Kategorien, mit der Nutzer Artikel recherchieren und vergleichen können."}
+    },
+    {
+     "@type":"Question",
+     "name":"Ist das Kakobuy Spreadsheet 2026 kostenlos?",
+     "acceptedAnswer":{"@type":"Answer","text":"Der Zugriff auf eine öffentliche Linkübersicht kann kostenlos sein. Produktpreise, Versand und mögliche Abgaben fallen gegebenenfalls separat an."}
+    },
+    {
+     "@type":"Question",
+     "name":"Wie prüfe ich Kakobuy QC-Fotos?",
+     "acceptedAnswer":{"@type":"Answer","text":"Prüfe Material, Maße, Nähte, Etiketten und sichtbare Mängel. Fordere bei fehlenden Details zusätzliche Fotos an, sofern der Anbieter dies ermöglicht."}
+    },
+    {
+     "@type":"Question",
+     "name":"Wie berechne ich Kakobuy Versandkosten nach Deutschland?",
+     "acceptedAnswer":{"@type":"Answer","text":"Vergleiche das tatsächliche und volumetrische Gewicht, die Versandlinie, Zusatzgebühren sowie mögliche Einfuhrabgaben. Maßgeblich ist das aktuelle Angebot des Versanddienstleisters."}
+    },
+    {
+     "@type":"Question",
+     "name":"Ist diese Website offiziell mit Kakobuy verbunden?",
+     "acceptedAnswer":{"@type":"Answer","text":"Nein. Diese Website ist ein unabhängiger Informationsguide und keine offizielle Kakobuy-Plattform."}
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<header class="container">
+<a class="logo" href="#top" aria-label="Zur Startseite">
+<span class="logo-mark">K.</span>
+<span>KAKO<span style="color:#39875b">INDEX</span></span>
+</a>
+<nav aria-label="Hauptnavigation">
+<a href="#categories">Kategorien</a>
+<a href="#guide">Anleitung</a>
+<a href="#articles">Ratgeber</a>
+<a href="#faq">FAQ</a>
+<a class="nav-cta" href="https://kakobuycnsheets.com/" rel="noopener noreferrer">Links entdecken ↗</a>
+</nav>
+</header>
+
+<main id="main">
+<div class="hero" id="top">
+<div class="container hero-grid">
+<div>
+<span class="eyebrow"><span class="dot"></span> Independent Shopping Research / 2026</span>
+<h1>KAKOBUY<em>SPREAD</em>SHEET<small>2026 EDITION ↗</small></h1>
+<p class="lead">Dein unabhängiger Guide für <strong>Kakobuy Spreadsheet 2026</strong>, Produktlinks, QC-Checks, Größen und internationalen Versand. Entdecke Kategorien, vergleiche Optionen und kaufe informierter ein.</p>
+<div class="actions">
+<a class="btn btn-primary" href="https://kakobuycnsheets.com/index.html" rel="noopener noreferrer">kakobuy spreadsheet <span aria-hidden="true">↗</span></a>
+<a class="btn btn-dark" href="https://kakobuycnsheets.com/index.html" rel="noopener noreferrer">buy it <span aria-hidden="true">↗</span></a>
+<a class="btn btn-outline" href="#guide">Guide lesen ↓</a>
+</div>
+<p class="hero-note">13 Kategorien · 20 Ratgeber · Unabhängige Informationen · Deutsch</p>
+</div>
+<div class="visual" aria-label="Illustration einer digitalen Produktübersicht">
+<div class="orbit"></div>
+<div class="orbit two"></div>
+<div class="sheet">
+<div class="sheet-top"><span>SPREADSHEET / 2026</span><span>● INDEX</span></div>
+<div class="sheet-row"><strong>CATEGORY</strong><strong>CHECK</strong><strong>GUIDE</strong></div>
+<div class="sheet-row"><span>Sneakers</span><b>QC Photos</b><span class="status">View</span></div>
+<div class="sheet-row"><span>Hoodies</span><b>Size Chart</b><span class="status">View</span></div>
+<div class="sheet-row"><span>Jackets</span><b>Materials</b><span class="status">View</span></div>
+<div class="sheet-row"><span>Bags</span><b>Details</b><span class="status">View</span></div>
+<div class="sheet-row"><span>Accessories</span><b>Compare</b><span class="status">View</span></div>
+<div class="sheet-row"><span>Shipping</span><b>Estimate</b><span class="status">View</span></div>
+</div>
+<div class="floating f1">✦ FIND YOUR LINKS</div>
+<div class="floating f2">↗ SMARTER SHOPPING</div>
+</div>
+</div>
+</div>
+
+<div class="ticker">KAKOBUY SPREADSHEET 2026 &nbsp; ✳ &nbsp; PRODUCT LINKS &nbsp; ✳ &nbsp; QUALITY CHECK &nbsp; ✳ &nbsp; SHIPPING GUIDE &nbsp; ✳ &nbsp; SIZE & FIT</div>
+
+<section class="category-area" id="categories">
+<div class="container">
+<div class="section-head">
+<div>
+<span class="kicker">01 / Explore</span>
+<h2>Finde deine<br>Kategorie.</h2>
+</div>
+<p>Direkte Kategorie-Links zur externen Produktübersicht. Wähle deinen Bereich und überprüfe Produktinformationen vor dem Kauf.</p>
+</div>
+<div class="category-tools">
+<select id="categorySelect" aria-label="Produktkategorie auswählen">
+<option value="">Kategorie auswählen</option>
+<option value="https://kakobuycnsheets.com/category-911-Shoes.html">Shoes</option>
+<option value="https://kakobuycnsheets.com/category-912-Hoodies%2FSweaters.html">Hoodies/Sweaters</option>
+<option value="https://kakobuycnsheets.com/category-913-T-Shirts.html">T-Shirts</option>
+<option value="https://kakobuycnsheets.com/category-914-Jackets.html">Jackets</option>
+<option value="https://kakobuycnsheets.com/category-915-Pants%2FShorts.html">Pants/Shorts</option>
+<option value="https://kakobuycnsheets.com/category-916-Headwear.html">Headwear</option>
+<option value="https://kakobuycnsheets.com/category-917-Sets.html">Sets</option>
+<option value="https://kakobuycnsheets.com/category-918-underwear%2Funderpants.html">Underwear/Underpants</option>
+<option value="https://kakobuycnsheets.com/category-919-Jersey.html">Jersey</option>
+<option value="https://kakobuycnsheets.com/category-920-Accessories.html">Accessories</option>
+<option value="https://kakobuycnsheets.com/category-921-Bags.html">Bag</option>
+<option value="https://kakobuycnsheets.com/category-922-Belts.html">Belts</option>
+<option value="https://kakobuycnsheets.com/category-923-Perfumes.html">Perfumes</option>
+</select>
+<button class="btn btn-primary" id="categoryGo" type="button">Kategorie öffnen ↗</button>
+</div>
+<div class="category-grid">
+<a class="cat" href="https://kakobuycnsheets.com/category-911-Shoes.html"><span class="cat-icon">◉</span><strong>Shoes</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-912-Hoodies%2FSweaters.html"><span class="cat-icon">▤</span><strong>Hoodies / Sweaters</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-913-T-Shirts.html"><span class="cat-icon">✳</span><strong>T-Shirts</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-914-Jackets.html"><span class="cat-icon">▥</span><strong>Jackets</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-915-Pants%2FShorts.html"><span class="cat-icon">⌁</span><strong>Pants / Shorts</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-916-Headwear.html"><span class="cat-icon">◒</span><strong>Headwear</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-917-Sets.html"><span class="cat-icon">▦</span><strong>Sets</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-918-underwear%2Funderpants.html"><span class="cat-icon">◇</span><strong>Underwear</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-919-Jersey.html"><span class="cat-icon">★</span><strong>Jersey</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-920-Accessories.html"><span class="cat-icon">✦</span><strong>Accessories</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-921-Bags.html"><span class="cat-icon">▣</span><strong>Bag</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-922-Belts.html"><span class="cat-icon">◎</span><strong>Belts</strong><span>↗</span></a>
+<a class="cat" href="https://kakobuycnsheets.com/category-923-Perfumes.html"><span class="cat-icon">✧</span><strong>Perfumes</strong><span>↗</span></a>
+</div>
+<div class="info-strip"><strong>Hinweis:</strong> Alle Kategorie-Links führen zu einer externen Website. Preise, Lagerbestand, Produktqualität und Versandbedingungen können sich ändern. Die Illustration oben zeigt Beispieldaten, keine geprüften Live-Produkte.</div>
+</div>
+</section>
+
+<section class="dark-section" id="guide">
+<div class="container">
+<span class="kicker">02 / How it works</span>
+<h2>Vier Schritte.<br>Bessere Entscheidungen.</h2>
+<p>So nutzt du eine Kakobuy Spreadsheet-Liste sinnvoll, ohne wichtige Details zu übersehen.</p>
+<div class="workflow">
+<div class="step"><span class="number">STEP 01 — DISCOVER</span><h3>Links finden</h3><p>Öffne die passende Kategorie. Prüfe, ob der Link erreichbar ist und zur erwarteten Produktseite führt.</p></div>
+<div class="step"><span class="number">STEP 02 — VERIFY</span><h3>Produkt prüfen</h3><p>Vergleiche Fotos, Materialangaben, Größentabellen und verfügbare Bewertungen.</p></div>
+<div class="step"><span class="number">STEP 03 — CALCULATE</span><h3>Kosten planen</h3><p>Berücksichtige Produktpreis, Inlandstransport, internationalen Versand und mögliche Einfuhrabgaben.</p></div>
+<div class="step"><span class="number">STEP 04 — DECIDE</span><h3>Bewusst bestellen</h3><p>Lies Rückgabe- und Versandbedingungen. Bestelle nur, wenn Anbieter und Gesamtkosten für dich passen.</p></div>
+</div>
+</div>
+</section>
+
+<section id="comparison">
+<div class="container">
+<div class="section-head">
+<div><span class="kicker">03 / Research Desk</span><h2>Vor dem Kauf<br>vergleichen.</h2></div>
+<p>Eine praktische Übersicht der wichtigsten Prüfkriterien für unterschiedliche Produkttypen.</p>
+</div>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Kategorie</th><th>Wichtiger QC-Check</th><th>Größenprüfung</th><th>Versandfaktor</th></tr></thead>
+<tbody>
+<tr><td>Shoes</td><td>Nähte, Sohle, Symmetrie</td><td>Innensohlenlänge</td><td>Kartonvolumen</td></tr>
+<tr><td>Hoodies</td><td>Stoff, Druck, Verarbeitung</td><td>Brustweite und Länge</td><td>Gewicht</td></tr>
+<tr><td>Jackets</td><td>Reißverschluss, Futter</td><td>Schultern und Ärmel</td><td>Volumen</td></tr>
+<tr><td>Bags</td><td>Nähte, Hardware, Innenfutter</td><td>Abmessungen</td><td>Form und Verpackung</td></tr>
+<tr><td>Accessories</td><td>Material und Oberfläche</td><td>Produktabhängig</td><td>Schutzverpackung</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<section style="background:#fff">
+<div class="container editorial">
+<div class="editorial-art" aria-hidden="true"><span>QC BEFORE BUY</span></div>
+<div>
+<span class="kicker">04 / Quality First</span>
+<h2>Gute Links.<br>Klare Checks.</h2>
+<p>Ein Kakobuy Spreadsheet ist ein Recherchewerkzeug, keine Qualitätsgarantie. Produktbilder und tatsächliche Ware können voneinander abweichen.</p>
+<ul class="checklist">
+<li>Produktbeschreibung und Fotos miteinander vergleichen.</li>
+<li>Maße in Zentimetern statt nur S/M/L prüfen.</li>
+<li>Bei QC-Bildern Vorderseite, Rückseite und Details ansehen.</li>
+<li>Versandbedingungen und Rückgabefristen dokumentieren.</li>
+<li>Markenrechte, Einfuhrregeln und Produktbeschränkungen beachten.</li>
+</ul>
+<a class="btn btn-primary" href="#articles">20 Ratgeber entdecken ↗</a>
+</div>
+</div>
+</section>
+
+<section class="articles" id="articles">
+<div class="container">
+<div class="section-head">
+<div><span class="kicker">05 / Knowledge Library</span><h2>20 Guides.<br>Ein smarter Index.</h2></div>
+<p>Ein thematisch strukturierter Wissensbereich zu Kakobuy Spreadsheet, Links, Qualitätskontrolle und Shopping in Deutschland.</p>
+</div>
+<div class="index-links" aria-label="Ratgeber-Inhaltsverzeichnis">
+<a href="#a1">01 Spreadsheet</a><a href="#a2">02 Links</a><a href="#a3">03 QC</a><a href="#a4">04 Shipping</a><a href="#a5">05 Shoes</a><a href="#a6">06 Hoodies</a><a href="#a7">07 T-Shirts</a><a href="#a8">08 Jackets</a><a href="#a9">09 Pants</a><a href="#a10">10 Bags</a><a href="#a11">11 Accessories</a><a href="#a12">12 Sizing</a><a href="#a13">13 Haul</a><a href="#a14">14 Legit</a><a href="#a15">15 Germany</a><a href="#a16">16 Costs</a><a href="#a17">17 Customs</a><a href="#a18">18 Mistakes</a><a href="#a19">19 Comparison</a><a href="#a20">20 Checklist</a>
+</div>
+<div class="article-grid">
+
+<article id="a1">
+<span class="tag">01 / Main Guide</span>
+<h3>Kakobuy Spreadsheet 2026: Der vollständige Einstieg</h3>
+<p><strong>Kurzantwort:</strong> Ein Kakobuy Spreadsheet ist eine organisierte Linkliste für die Produktsuche. Kategorien erleichtern den Einstieg, ersetzen aber keine eigene Produktprüfung.</p>
+<p>Beginne mit einer klaren Produktkategorie. Vergleiche mehrere Artikel anhand von Beschreibung, Maßen, Material und Bildern. Notiere zusätzlich den Link, das Datum der Prüfung und den angezeigten Preis, damit du spätere Änderungen erkennst.</p>
+<ul><li>Link und Produktbeschreibung kontrollieren.</li><li>Größentabelle und QC-Verfügbarkeit prüfen.</li><li>Gesamtkosten vor dem Kauf schätzen.</li></ul>
+<div class="article-links"><a href="#categories">Kategorien →</a><a href="#a2">Links Guide →</a></div>
+</article>
+
+<article id="a2">
+<span class="tag">02 / Link Research</span>
+<h3>Kakobuy Links finden und zuverlässig prüfen</h3>
+<p><strong>Kurzantwort:</strong> Nutze strukturierte Kategorien und verifiziere jeden Produktlink unmittelbar vor einer Bestellung.</p>
+<p>Produktlinks können umgeleitet werden, auslaufen oder auf veränderte Angebote zeigen. Kontrolliere deshalb Produktbilder, Varianten, Größen und Verkäuferinformationen nach jedem Öffnen erneut.</p>
+<ul><li>Unklare Weiterleitungen vermeiden.</li><li>Artikelvarianten einzeln vergleichen.</li><li>Veraltete Links nicht ungeprüft übernehmen.</li></ul>
+<div class="article-links"><a href="#categories">Links öffnen →</a><a href="#a18">Fehler vermeiden →</a></div>
+</article>
+
+<article id="a3">
+<span class="tag">03 / Quality Control</span>
+<h3>Kakobuy QC: Fotos richtig auswerten</h3>
+<p><strong>Kurzantwort:</strong> QC-Fotos helfen dabei, sichtbare Mängel und Abweichungen vor dem internationalen Versand zu erkennen.</p>
+<p>Kontrolliere Form, Farbe, Nähte, Druckpositionen und die Übereinstimmung mit der Bestellung. Fotos können Beleuchtung und Materialwirkung verzerren. Bei Unsicherheit sind zusätzliche Detailaufnahmen sinnvoll, sofern verfügbar.</p>
+<ul><li>Gesamtansicht und Nahaufnahmen vergleichen.</li><li>Maßangaben separat bestätigen.</li><li>Sichtbare Probleme vor Versand klären.</li></ul>
+<div class="article-links"><a href="#comparison">QC-Tabelle →</a><a href="#a12">Größen →</a></div>
+</article>
+
+<article id="a4">
+<span class="tag">04 / Logistics</span>
+<h3>Kakobuy Shipping 2026: Versandkosten verstehen</h3>
+<p><strong>Kurzantwort:</strong> Versandkosten hängen unter anderem von Zielland, Versandlinie, Paketmaßen, Gewicht und Zusatzleistungen ab.</p>
+<p>Viele internationale Transportangebote berücksichtigen das größere Ergebnis aus tatsächlichem und volumetrischem Gewicht. Die konkrete Volumenformel ist dienstleisterabhängig. Vergleiche Angebote erst, wenn die Paketdaten möglichst genau vorliegen.</p>
+<ul><li>Gewicht und Abmessungen notieren.</li><li>Versandbeschränkungen prüfen.</li><li>Abgaben und Zusatzkosten berücksichtigen.</li></ul>
+<div class="article-links"><a href="#a16">Kostenplanung →</a><a href="#a17">Zoll →</a></div>
+</article>
+
+<article id="a5">
+<span class="tag">05 / Footwear</span>
+<h3>Kakobuy Shoes Spreadsheet: Sneaker-Guide</h3>
+<p><strong>Kurzantwort:</strong> Bei Schuhen sind Innensohlenlänge, Material, Verarbeitung und Verpackungsvolumen besonders wichtig.</p>
+<p>EU-Größen können je nach Hersteller unterschiedlich ausfallen. Vergleiche daher die Innensohlenlänge in Zentimetern mit einem gut passenden Paar. Auf QC-Bildern solltest du beide Schuhe auf Symmetrie, Sohlenverklebung und sichtbare Verarbeitungsfehler prüfen.</p>
+<ul><li>Innensohlenlänge kontrollieren.</li><li>Beide Schuhe auf QC-Fotos vergleichen.</li><li>Schuhkarton beim Versand einkalkulieren.</li></ul>
+<div class="article-links"><a href="https://kakobuycnsheets.com/category-911-Shoes.html">Shoes entdecken ↗</a></div>
+</article>
+
+<article id="a6">
+<span class="tag">06 / Streetwear</span>
+<h3>Kakobuy Hoodie Spreadsheet: Passform und Material</h3>
+<p><strong>Kurzantwort:</strong> Die wichtigste Vergleichsgrundlage sind Kleidungsmaße und Materialangaben, nicht allein die Größenbezeichnung.</p>
+<p>Prüfe Brustweite, Schulterbreite, Gesamtlänge und Ärmellänge. Ein Oversized-Schnitt kann bewusst weiter ausfallen. Bei bedruckten Hoodies sollten zusätzlich Druckposition, Farbgleichmäßigkeit und Nähte bewertet werden.</p>
+<ul><li>Maße mit eigener Kleidung vergleichen.</li><li>Stoffzusammensetzung prüfen.</li><li>Pflegehinweise berücksichtigen.</li></ul>
+<div class="article-links"><a href="https://kakobuycnsheets.com/category-912-Hoodies%2FSweaters.html">Hoodies entdecken ↗</a></div>
+</article>
+
+<article id="a7">
+<span class="tag">07 / Essentials</span>
+<h3>Kakobuy T-Shirt Links: Qualität erkennen</h3>
+<p><strong>Kurzantwort:</strong> Bei T-Shirts entscheiden Passform, Stoff, Druck und Nähte über die Alltagstauglichkeit.</p>
+<p>Ein höheres Stoffgewicht kann sich anders anfühlen, ist aber allein kein Qualitätsbeweis. Vergleiche Materialzusammensetzung, Schnitt und tatsächliche Maße. Beachte, dass Produktfotos den Fall des Stoffes nur eingeschränkt zeigen.</p>
+<ul><li>Kragen und Nähte prüfen.</li><li>Brustweite und Länge vergleichen.</li><li>Druckdetails kontrollieren.</li></ul>
+<div class="article-links"><a href="https://kakobuycnsheets.com/category-913-T-Shirts.html">T-Shirts entdecken ↗</a></div>
+</article>
+
+<article id="a8">
+<span class="tag">08 / Outerwear</span>
+<h3>Kakobuy Jackets: Jacken richtig auswählen</h3>
+<p><strong>Kurzantwort:</strong> Achte bei Jacken auf Einsatzzweck, Futter, Verschlüsse und ausreichenden Platz für weitere Kleidungsschichten.</p>
+<p>Eine Winterjacke sollte nach Temperaturbereich und tatsächlichen Materialeigenschaften ausgewählt werden. Wer darunter Hoodies trägt, muss zusätzliche Bewegungsfreiheit einplanen. Prüfe Reißverschlüsse, Taschen und Futter auf den verfügbaren Bildern.</p>
+<ul><li>Schulter- und Ärmellänge messen.</li><li>Material und Füllung prüfen.</li><li>Packvolumen einkalkulieren.</li></ul>
+<div class="article-links"><a href="https://kakobuycnsheets.com/category-914-Jackets.html">Jackets entdecken ↗</a></div>
+</article>
+
+<article id="a9">
+<span class="tag">09 / Bottoms</span>
+<h3>Kakobuy Pants Spreadsheet: Hosen und Shorts</h3>
+<p><strong>Kurzantwort:</strong> Bundweite, Hüftweite, Innenbeinlänge und Schnitt sind die entscheidenden Vergleichsdaten.</p>
+<p>Ein als Wide Leg bezeichneter Artikel kann je nach Hersteller stark variieren. Vergleiche deshalb Maße mit einer Hose, die bereits gut sitzt. Elastische und feste Stoffe verhalten sich unterschiedlich.</p>
+<ul><li>Bund und Innenbeinlänge prüfen.</li><li>Stoffelastizität beachten.</li><li>Wasch- und Pflegehinweise lesen.</li></ul>
+<div class="article-links"><a href="https://kakobuycnsheets.com/category-915-Pants%2FShorts.html">Pants entdecken ↗</a></div>
+</article>
+
+<article id="a10">
+<span class="tag">10 / Bags</span>
+<h3>Kakobuy Bags Spreadsheet: Taschen vergleichen</h3>
+<p><strong>Kurzantwort:</strong> Bei Taschen zählen Abmessungen, Material, Tragekomfort und Verarbeitung.</p>
+<p>Prüfe die tatsächliche Größe anhand von Zentimeterangaben. Fotos allein vermitteln oft einen falschen Eindruck vom Stauraum. Kontrolliere Reißverschlüsse, Riemen, Befestigungspunkte und Innenfutter.</p>
+<ul><li>Innen- und Außenmaße vergleichen.</li><li>Verschlüsse und Nähte ansehen.</li><li>Materialpflege berücksichtigen.</li></ul>
+<div class="article-links"><a href="https://kakobuycnsheets.com/category-921-Bags.html">Bags entdecken ↗</a></div>
+</article>
+
+<article id="a11">
+<span class="tag">11 / Details</span>
+<h3>Kakobuy Accessories: Kleine Artikel, wichtige Details</h3>
+<p><strong>Kurzantwort:</strong> Accessoires sollten nach Material, Abmessungen, Verarbeitung und möglichen Einfuhrbeschränkungen bewertet werden.</p>
+<p>Gerade bei kleinen Produkten können Fotos Details schwer erkennbar machen. Vergleiche Oberflächen, Verschlüsse und Größenangaben. Bei Kosmetik oder Parfüm können zusätzliche Sicherheits- und Versandvorschriften gelten.</p>
+<ul><li>Materialangaben kontrollieren.</li><li>Maße nicht überschätzen.</li><li>Transportbeschränkungen prüfen.</li></ul>
+<div class="article-links"><a href="https://kakobuycnsheets.com/category-920-Accessories.html">Accessories entdecken ↗</a></div>
+</article>
+
+<article id="a12">
+<span class="tag">12 / Sizing</span>
+<h3>Kakobuy Size Guide: Größentabellen lesen</h3>
+<p><strong>Kurzantwort:</strong> Zentimetermaße sind in der Regel aussagekräftiger als internationale Größenlabels.</p>
+<p>Lege ein gut passendes Kleidungsstück flach hin und miss Brustweite, Länge und Schulterbreite. Vergleiche diese Werte mit der Produkttabelle. Achte darauf, ob die Tabelle Körpermaße oder Maße des Kleidungsstücks zeigt.</p>
+<ul><li>Gleiche Messmethoden verwenden.</li><li>Messabweichungen einkalkulieren.</li><li>Bei fehlenden Angaben nachfragen.</li></ul>
+<div class="article-links"><a href="#a6">Hoodie-Größen →</a><a href="#a5">Schuhgrößen →</a></div>
+</article>
+
+<article id="a13">
+<span class="tag">13 / Haul Planning</span>
+<h3>Kakobuy Haul 2026: Bestellungen sinnvoll planen</h3>
+<p><strong>Kurzantwort:</strong> Eine gute Haul-Planung berücksichtigt nicht nur Produktpreise, sondern auch Gewicht, Versand und Rückgaberisiken.</p>
+<p>Erstelle eine Liste mit Artikel, Preis, Gewichtsschätzung und Priorität. Bestelle nicht allein deshalb mehr, weil ein Versandrabatt attraktiv erscheint. Größere Pakete können zusätzliche Kosten und Risiken verursachen.</p>
+<ul><li>Budget vorab festlegen.</li><li>Versandoptionen vergleichen.</li><li>Unnötige Spontankäufe vermeiden.</li></ul>
+<div class="article-links"><a href="#a16">Kosten berechnen →</a></div>
+</article>
+
+<article id="a14">
+<span class="tag">14 / Trust & Safety</span>
+<h3>Is Kakobuy Legit? Sicherheit richtig beurteilen</h3>
+<p><strong>Kurzantwort:</strong> Die Seriosität eines Dienstes sollte anhand aktueller, überprüfbarer Informationen bewertet werden, nicht anhand einzelner positiver Kommentare.</p>
+<p>Untersuche Geschäftsangaben, Zahlungsmethoden, Rückerstattungsbedingungen und unabhängige Erfahrungsberichte. Achte auf das Datum von Bewertungen und darauf, ob Probleme nachvollziehbar gelöst wurden. Diese Website bestätigt keine aktuelle Zuverlässigkeit oder Liefergarantie.</p>
+<ul><li>Aktuelle unabhängige Bewertungen lesen.</li><li>Rückerstattungsregeln prüfen.</li><li>Risiken bei grenzüberschreitenden Käufen beachten.</li></ul>
+<div class="article-links"><a href="#faq">Sicherheitsfragen →</a></div>
+</article>
+
+<article id="a15">
+<span class="tag">15 / Deutschland</span>
+<h3>Kakobuy Spreadsheet Deutschland: Was beachten?</h3>
+<p><strong>Kurzantwort:</strong> Deutsche Käufer sollten insbesondere Einfuhrumsatzsteuer, Zollregeln, Produktsicherheit und Lieferbedingungen beachten.</p>
+<p>Ein internationaler Warenkauf unterscheidet sich von einer Bestellung bei einem Händler innerhalb der EU. Informiere dich über die geltenden Einfuhrregeln und bewahre Rechnungen und Zahlungsbelege auf. Prüfe auch, ob die Ware legal eingeführt werden darf.</p>
+<ul><li>Lieferadresse und Versandland prüfen.</li><li>Einfuhrabgaben einkalkulieren.</li><li>Offizielle Zollinformationen nutzen.</li></ul>
+<div class="article-links"><a href="#a17">Zoll-Guide →</a></div>
+</article>
+
+<article id="a16">
+<span class="tag">16 / Budget</span>
+<h3>Kakobuy Shipping Calculator: Gesamtkosten schätzen</h3>
+<p><strong>Kurzantwort:</strong> Berechne den erwarteten Gesamtbetrag aus Warenwert, Versand, Gebühren und gegebenenfalls Steuern und Zoll.</p>
+<p>Beispiel: Ein Artikel kostet 35 €, internationaler Versand 18 € und weitere Gebühren 3 €. Vor möglichen Einfuhrabgaben ergibt das 56 €. Die endgültige Berechnung hängt von der steuerlichen Behandlung und den aktuellen Dienstleisterbedingungen ab.</p>
+<ul><li>Produktpreis und Nebenkosten addieren.</li><li>Volumengewicht berücksichtigen.</li><li>Einen finanziellen Puffer einplanen.</li></ul>
+<div class="article-links"><a href="#calculator">Rechner nutzen →</a></div>
+</article>
+
+<article id="a17">
+<span class="tag">17 / Customs</span>
+<h3>Kakobuy Zoll Deutschland: Grundlagen 2026</h3>
+<p><strong>Kurzantwort:</strong> Bei Einfuhren aus Nicht-EU-Staaten können Einfuhrumsatzsteuer, Zoll und Abfertigungsgebühren relevant sein.</p>
+<p>Die Behandlung richtet sich unter anderem nach Warenart, Wert, Herkunft und den zum Einfuhrzeitpunkt geltenden Regeln. Falsche Wertangaben können rechtliche Folgen haben. Für verbindliche Auskünfte nutze die offiziellen Informationen des deutschen Zolls.</p>
+<ul><li>Warenwert korrekt angeben.</li><li>Rechnungen aufbewahren.</li><li>Aktuelle Vorschriften prüfen.</li></ul>
+<div class="article-links"><a href="https://www.zoll.de/" rel="noopener noreferrer">Deutscher Zoll ↗</a></div>
+</article>
+
+<article id="a18">
+<span class="tag">18 / Troubleshooting</span>
+<h3>Kakobuy Spreadsheet Fehler: 7 Probleme vermeiden</h3>
+<p><strong>Kurzantwort:</strong> Die häufigsten Recherchefehler betreffen alte Links, falsche Größen und unvollständige Kostenvergleiche.</p>
+<p>Verlasse dich nicht auf eine einzelne Abbildung. Prüfe, ob die ausgewählte Variante zur Beschreibung passt. Beachte Versandbeschränkungen und dokumentiere wichtige Bestellinformationen.</p>
+<ul><li>Keine veralteten Links blind übernehmen.</li><li>Keine Größe ohne Maße wählen.</li><li>Keine Versandkosten ignorieren.</li><li>Keine unklaren Rückgaberegeln übersehen.</li></ul>
+<div class="article-links"><a href="#a20">Checkliste →</a></div>
+</article>
+
+<article id="a19">
+<span class="tag">19 / Comparison</span>
+<h3>Kakobuy vs. andere Shopping Agents</h3>
+<p><strong>Kurzantwort:</strong> Vergleiche Shopping-Dienste anhand transparenter Gebühren, Kundenservice, Versandoptionen und Reklamationsprozessen.</p>
+<p>Ein einzelner günstiger Artikelpreis reicht für einen sinnvollen Vergleich nicht aus. Unterschiedliche Agenten können verschiedene Lager-, Foto-, Service- und Versandgebühren berechnen. Eine faire Bewertung benötigt aktuelle Angebote mit identischen Paketdaten.</p>
+<ul><li>Gesamtkosten statt Einzelpreise vergleichen.</li><li>Support und Reklamationsregeln prüfen.</li><li>Versandangebote mit gleichen Daten bewerten.</li></ul>
+<div class="article-links"><a href="#comparison">Vergleichskriterien →</a></div>
+</article>
+
+<article id="a20">
+<span class="tag">20 / Final Checklist</span>
+<h3>Kakobuy Spreadsheet 2026: Checkliste vor der Bestellung</h3>
+<p><strong>Kurzantwort:</strong> Ein systematischer letzter Check reduziert vermeidbare Fehler bei der Produktauswahl.</p>
+<p>Vergewissere dich, dass der Link zum richtigen Artikel führt und deine ausgewählte Variante stimmt. Prüfe Maße, Material, Verfügbarkeit und Zahlungsbedingungen. Plane Versand, Einfuhrabgaben und mögliche Verzögerungen ein.</p>
+<ul><li>Produkt und Variante bestätigt?</li><li>Maße und QC-Informationen geprüft?</li><li>Gesamtbudget realistisch?</li><li>Einfuhr und Rückgabe geklärt?</li></ul>
+<div class="article-links"><a href="#categories">Zur Produktsuche →</a><a href="#faq">FAQ lesen →</a></div>
+</article>
+
+</div>
+</div>
+</section>
+
+<section id="calculator">
+<div class="container">
+<div class="section-head">
+<div><span class="kicker">06 / Interactive Tool</span><h2>Dein Kosten-<br>Check.</h2></div>
+<p>Ein einfacher Rechner für deine persönliche Budgetplanung. Keine Live-Versandpreise und keine verbindliche Steuerberechnung.</p>
+</div>
+<div style="background:white;border:1px solid var(--line);padding:30px;max-width:780px">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:15px">
+<label>Warenwert (€)<input id="goods" type="number" min="0" step="0.01" value="35" style="width:100%;padding:13px;border:1px solid #cbd7cc"></label>
+<label>Versand (€)<input id="shipping" type="number" min="0" step="0.01" value="18" style="width:100%;padding:13px;border:1px solid #cbd7cc"></label>
+<label>Sonstige Kosten (€)<input id="fees" type="number" min="0" step="0.01" value="3" style="width:100%;padding:13px;border:1px solid #cbd7cc"></label>
+</div>
+<div style="border-top:1px solid var(--line);margin-top:25px;padding-top:22px;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap">
+<strong>Zwischensumme ohne Einfuhrabgaben</strong>
+<strong id="total" aria-live="polite" style="font-size:36px;color:var(--green)">56,00 €</strong>
+</div>
+<p style="font-size:12px;color:var(--muted)">Steuern, Zoll und weitere Abfertigungsgebühren sind nicht enthalten. Die Berechnung erfolgt nur in deinem Browser.</p>
+</div>
+</div>
+</section>
+
+<section style="background:#fff" id="faq">
+<div class="container">
+<div class="section-head">
+<div><span class="kicker">07 / Quick Answers</span><h2>Häufige Fragen.</h2></div>
+<p>Kurze, verständliche Antworten auf typische Fragen rund um Kakobuy Spreadsheet und Shopping.</p>
+</div>
+<div class="faq-list">
+<details><summary>Was ist ein Kakobuy Spreadsheet?</summary><p>Ein Kakobuy Spreadsheet ist eine strukturierte Sammlung von Produktlinks und Kategorien, mit der Nutzer Artikel recherchieren und vergleichen können.</p></details>
+<details><summary>Ist das Kakobuy Spreadsheet 2026 kostenlos?</summary><p>Der Zugriff auf eine öffentliche Linkübersicht kann kostenlos sein. Produktpreise, Versand und mögliche Abgaben fallen gegebenenfalls separat an.</p></details>
+<details><summary>Wie prüfe ich Kakobuy QC-Fotos?</summary><p>Prüfe Material, Maße, Nähte, Etiketten und sichtbare Mängel. Fordere bei fehlenden Details zusätzliche Fotos an, sofern der Anbieter dies ermöglicht.</p></details>
+<details><summary>Wie berechne ich Kakobuy Versandkosten nach Deutschland?</summary><p>Vergleiche das tatsächliche und volumetrische Gewicht, die Versandlinie, Zusatzgebühren sowie mögliche Einfuhrabgaben. Maßgeblich ist das aktuelle Angebot des Versanddienstleisters.</p></details>
+<details><summary>Ist diese Website offiziell mit Kakobuy verbunden?</summary><p>Nein. Diese Website ist ein unabhängiger Informationsguide und keine offizielle Kakobuy-Plattform.</p></details>
+</div>
+</div>
+</section>
+
+<section style="padding-top:0">
+<div class="container">
+<div class="cta-panel">
+<div>
+<span class="kicker">START EXPLORING</span>
+<h2>Bereit für deinen<br>nächsten Fund?</h2>
+<p>Entdecke Produktkategorien und prüfe deine Favoriten.</p>
+</div>
+<a class="btn btn-dark" href="https://kakobuycnsheets.com/" rel="noopener noreferrer">Zum Spreadsheet ↗</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">
+<div class="footer-grid">
+<div>
+<h3>KAKOINDEX / 2026</h3>
+<p>Unabhängiger Informationsguide zu Kakobuy Spreadsheet, Produktrecherche, Qualitätskontrolle und internationalem Shopping.</p>
+<p>Keine offizielle Verbindung zu Kakobuy, Weidian oder Tmall. Wir verkaufen und versenden keine Waren und bieten keinen Bestellkundendienst.</p>
+</div>
+<div>
+<h3>Navigation</h3>
+<ul>
+<li><a href="#categories">Kategorien</a></li>
+<li><a href="#guide">Anleitung</a></li>
+<li><a href="#articles">20 Ratgeber</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h3>Transparenz</h3>
+<p>Externe Links können Affiliate-Links sein. Daraus können Einnahmen entstehen. Verfügbarkeit, Produktqualität und Lieferleistungen werden nicht garantiert.</p>
+<p>Für Käufe auf externen Plattformen gelten deren Bedingungen. Käufer sind selbst für die Prüfung von Rechtmäßigkeit, Gebühren und Einfuhrvorschriften verantwortlich.</p>
+</div>
+</div>
+<div class="bottom">© 2026 KAKOINDEX. Independent Editorial Resource. Not affiliated with Kakobuy.</div>
+</div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+const select=document.getElementById("categorySelect");
+const go=document.getElementById("categoryGo");
+go.addEventListener("click",function(){
+const url=select.value;
+if(url && url.startsWith("https://kakobuycnsheets.com/")){
+window.location.href=url;
+}else{
+select.focus();
+}
+});
+const ids=["goods","shipping","fees"];
+const fields=ids.map(id=>document.getElementById(id));
+const total=document.getElementById("total");
+const money=new Intl.NumberFormat("de-DE",{style:"currency",currency:"EUR"});
+function calculate(){
+let sum=0;
+for(const field of fields){
+const value=Number(field.value);
+if(!Number.isFinite(value)||value<0){
+total.textContent="Bitte gültige Werte eingeben";
+return;
+}
+sum+=value;
+}
+total.textContent=money.format(sum);
+}
+fields.forEach(field=>field.addEventListener("input",calculate));
+calculate();
+})();
+</script>
+</body>
+</html>
